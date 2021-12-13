@@ -1,8 +1,36 @@
 body{
-    background-color: #ac6060;
+    background-color: #573a64;
 }
 #logo
 {
-    width: 5px;
-    height: 5px;
+     width: 100px;
+     height: 100px;
+        display: block;
+        margin-left: 50%;
+        margin-right: 50%;
+        padding-bottom: 6px;
+        padding-top: 6px;
+}
+header
+{
+    background-color: blueviolet;
+    width: max;
+    height: 100 px;
+    border-radius: 15px;
+}
+#head_list li
+{
+    display:inline;
+    list-style-type: none;
+    margin-right: 100px;
+    font-size: 30px;
+    font-family: Impact;
+}
+#head_list
+{
+    margin-top: 44px;
+    float:left;
+}
+a{
+    color:
 }
