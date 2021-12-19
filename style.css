@@ -24,9 +24,44 @@ header
     margin-right: 100px;
     font-size: 30px;
     font-family: Impact;
+    color:rgb(55, 26, 82);
 }
+#head_list li a:hover
+{
+    background-color: burlywood;
+}
+#head_list li a:active
+{
+    color: #000000;
+}
+#head_list li a:link {
+    text-decoration: none;
+  }
 #head_list
 {
     margin-top: 44px;
     float:left;
+}
+.main_content{
+    height:auto;
+    width:auto;
+    background-color: rgb(163, 50, 255);
+    border-radius: 15px;
+}
+#text
+{
+    margin-top: 0%;
+    text-align:center;
+}
+#welcome_h1
+{
+    font-family: 'Oswald', sans-serif;
+    text-align:center;
+    text-shadow: 2px 2px 5px rgb(255, 52, 52);
+}
+#welcome_p
+{
+    text-align: justify;
+    margin: 0px 9px;
+
 }
