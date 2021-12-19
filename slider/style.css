@@ -27,7 +27,7 @@ article img {
 .slider-prev-next-control {
   height: 50px;
   position: absolute;
-  top: 50%;
+  bottom:70%;
   width: 100%;
   -webkit-transform: translateY(-50%);
   -moz-transform: translateY(-50%);
@@ -50,8 +50,7 @@ article img {
 .slider-dot-control {
   position: absolute;
   width: 100%;
-  bottom: 0;
-  text-align: center;
+    text-align: center;
 }
 .slider-dot-control label {
   cursor: pointer;
@@ -111,8 +110,7 @@ article img {
   overflow: hidden;
   border-radius: 5px;
   box-shadow: 1px 1px 4px #666;
-  background: #fff;
-  background: #fcfff4;
+  background:rgb(163, 50, 255);
   -webkit-transform: translateZ(0);
   -moz-transform: translateZ(0);
   -ms-transform: translateZ(0);

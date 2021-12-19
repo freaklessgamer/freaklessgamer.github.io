@@ -16,6 +16,7 @@ header
     width: max;
     height: 100 px;
     border-radius: 15px;
+    z-index: 2;
 }
 #head_list li
 {
@@ -53,7 +54,7 @@ header
     margin-top: 0%;
     text-align:center;
 }
-#welcome_h1
+h1
 {
     font-family: 'Oswald', sans-serif;
     text-align:center;
@@ -64,4 +65,8 @@ header
     text-align: justify;
     margin: 0px 9px;
 
+}
+#video_about
+{
+    margin: 5px 8px;
 }
