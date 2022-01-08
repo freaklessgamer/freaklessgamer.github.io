@@ -315,3 +315,13 @@ font-size: 12px;
 line-height: 15px;
 color: #A8A8A8;
 }
+#rectangle
+{
+position: absolute;
+width: 370px;
+height: 1319px;
+left: 40px;
+top: 40px;
+
+background: #1E2939;
+}
