@@ -325,3 +325,9 @@ top: 40px;
 
 background: #1E2939;
 }
+#photo
+{
+    padding-top: 20px;
+    width: 370px;
+    object-fit:fill;
+}
