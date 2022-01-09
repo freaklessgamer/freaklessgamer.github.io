@@ -327,9 +327,12 @@ background: #1E2939;
 }
 #photo
 {
-    padding-top: 20px;
-    width: 370px;
+    margin-top: 20px;
+    width: 366px;
     object-fit:fill;
+    border-radius:180px;
+    border-color: #FFFFFF;
+    border-style:solid;
 }
 html
 {
