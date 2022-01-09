@@ -32,7 +32,7 @@ color: #000000;
 #occupation
 {
 position: absolute;
-width: 153px;
+width: 180px;
 height: 17px;
 left: 498px;
 top: 142px;
@@ -40,7 +40,7 @@ top: 142px;
 font-family: Montserrat;
 font-style: normal;
 font-weight: bold;
-font-size: 14px;
+font-size: 19px;
 line-height: 17px;  
 color: #000000;
 }
@@ -131,7 +131,7 @@ color: #000000;
 #september
 {
 position: absolute;
-width: 240px;
+width: 242px;
 height: 15px;
 left: 498px;
 top: 640px;
@@ -141,7 +141,7 @@ font-style: normal;
 font-weight: normal;
 font-size: 12px;
 line-height: 15px;
-color: #666666;
+color: #5D6A4E;
 }
 #free ul
 {
@@ -187,7 +187,7 @@ font-style: normal;
 font-weight: normal;
 font-size: 12px;
 line-height: 15px;
-color: #666666;
+color: #5D6A4E;
 }
 #apple ul
 {
@@ -232,7 +232,7 @@ font-style: normal;
 font-weight: normal;
 font-size: 12px;
 line-height: 15px;
-color: #666666;
+color: #5D6A4E;
 }
 #facebook ul
 {
@@ -280,10 +280,7 @@ font-style: normal;
 font-weight: bold;
 font-size: 16px;
 line-height: 20px;
-/* identical to box height */
-
-
-color: #FB6D3A;
+color: #3F4739;
 }
 #spec
 {
@@ -313,7 +310,7 @@ font-style: normal;
 font-weight: normal;
 font-size: 12px;
 line-height: 15px;
-color: #666666;
+color: #5D6A4E;
 }
 #rectangle
 {
@@ -321,9 +318,9 @@ position: absolute;
 width: 370px;
 height: 1319px;
 left: 40px;
-top: 40px;
+top: 0px;
 
-background: #1E2939;
+background: #717568;
 }
 #photo
 {
@@ -336,7 +333,7 @@ background: #1E2939;
 }
 html
 {
-    background-color: #d3d3d3;
+    background-color: #F1BF98;
 }
 #contacts
 {   position: absolute;
@@ -379,8 +376,7 @@ font-style: normal;
 font-weight: normal;
 font-size: 14px;
 line-height: 24px;
-color: #FFFFFF;
-opacity: 0.5;
+color: #1F201D;
 text-decoration: none;
 }
 
@@ -417,7 +413,7 @@ color: #FFFFFF;
 }
 #tech_skills li
 {
-    color: #FB6D3A;
+    color: #3F4739;
 }
 #tech_skills span
 {
@@ -455,7 +451,7 @@ color: #FFFFFF;
 }
 #soft_skills li
 {
-    color: #FB6D3A;
+    color: #3F4739;
 }
 #soft_skills span
 {
