@@ -1,3 +1,8 @@
+body
+{
+    margin:0px;
+    padding:0px;
+}
 #text
 {
 position: absolute;
@@ -26,7 +31,6 @@ font-style: normal;
 font-weight: bold;
 font-size: 45px;
 line-height: 55px;
-
 color: #000000;
 }
 #occupation
@@ -47,7 +51,7 @@ color: #000000;
 #projects
 {
 position: absolute;
-width: 95px;
+width: 899px;
 height: 27px;
 left: 498px;
 top: 412px;
@@ -102,7 +106,7 @@ color: #595959;
 #work_exp
 {
 position: absolute;
-width: 198px;
+width: 899px;
 height: 27px;
 left: 498px;
 top: 570px;
@@ -254,7 +258,7 @@ color: #595959;
 #educ
 {
 position: absolute;
-width: 118px;
+width: 899px;
 height: 27px;
 left: 498px;
 top: 1138px;
