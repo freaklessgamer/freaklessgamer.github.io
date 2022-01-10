@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <link rel="stylesheet" type="text/css" href="style.css">
-    <link rel="shortcut icon" href="icon.jfif">
+    <link rel="shortcut icon" href="media/icon.jfif">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,9 +11,11 @@
 <body>
         <div>
             <div id="rectangle">
-                <aside><img id = "photo" src="photo.jpg"></aside>
-                <h2 id="contacts">Contacts</h2>
-                <p>Phone: <a href="">+380634108928</a><br>Email: <a href="arturnistevich9@gmail.com">arturnistevich@gmail.com</a></p>
+                <aside><img id = "photo" src="media/photo.jpg"></aside>
+                <div id="contacts">
+                <h2>Contacts</h2>
+                <p>Phone: <a href="tel: 380634108928" id="phone">+380634108928</a><br>Email: <a id="email"href="mailto: arturnistevich9@gmail.com">arturnistevich@gmail.com</a></p>
+                </div>
                 <h2 id="tech">Tech Skills</h2>
                 <ul id = "tech_skills">
                     <li><span>HTML5</span></li>
@@ -34,6 +36,10 @@
                     <li><span>Honesty</span></li>
                     <li><span>Quiet working</span></li>
                 </ul>
+                <div id="sn">
+                    <a href="https://www.instagram.com/" target="_blank" rel="noreferrer" rel="noopener"><img id="instagram" src="media/insta.png" width="50px" height="auto"></img></a>
+                    <a href="https://www.telegram.org/" target="_blank" rel="noreferrer" rel="noopener"><img id="telegram" src="media/tg.png" width="40px" height="auto"></img></a>
+                     </div>
             </div>
             <div>
                 <h2 id="occupation">Front-end Developer</h2>
@@ -53,7 +59,7 @@
                 <h3 id="work_exp">Work Experience</h3>
                 <div id="work_experience">
                     <div id="free">
-                    <h4 id="freelance">Front-End Developer <span style="color: #3F4739;">Freelance</h4>
+                    <h4 id="freelance">Front-End Developer <span style="color: #E24D28;">Freelance</h4>
                     <p id = "september">September 2019 - up to now   |   Ukraine</p>
                     <ul>
                         <li>
@@ -71,7 +77,7 @@
                     </ul>
                     </div>
                     <div id="apple">
-                        <h4 id="ceo_apple">CEO of <span style="color: #3F4739;">Apple</h4>
+                        <h4 id="ceo_apple">CEO of <span style="color: #E24D28;">Apple</h4>
                         <p id="march">March 2015 - October 2018   |   USA</p>
                         <ul>
                             <li>
@@ -86,7 +92,7 @@
                         </ul>
                     </div>
                     <div id="facebook">
-                        <h4 id="ceo_face">CEO of <span style="color: #3F4739;">Facebook</h4>
+                        <h4 id="ceo_face">CEO of <span style="color: #E24D28;">Facebook</h4>
                         <p id="june">June 2014 - February 2015   |   USA</p>
                         <ul>
                             <li>
@@ -107,7 +113,7 @@
                 <div>
                 </div>
                 <!--Education-->
-                <div>
+                <div id="education">
                     <h3 id="educ">Education</h3>
                     <h4 id="col">Khmelnitskiy Politechnical College</h4>
                     <h5 id="spec">Software Engineering</h5>

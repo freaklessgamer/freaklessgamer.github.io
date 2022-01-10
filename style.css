@@ -51,13 +51,14 @@ width: 95px;
 height: 27px;
 left: 498px;
 top: 412px;
-
 font-family: Montserrat;
 font-style: normal;
 font-weight: bold;
 font-size: 22px;
 line-height: 27px;
 color: #000000;
+background-color: #f4a261;
+text-align:left;
 }
 
 #projects_list
@@ -100,18 +101,19 @@ color: #595959;
 
 #work_exp
 {
-    position: absolute;
+position: absolute;
 width: 198px;
 height: 27px;
 left: 498px;
 top: 570px;
-
 font-family: Montserrat;
 font-style: normal;
 font-weight: bold;
 font-size: 22px;
 line-height: 27px;
 color: #000000;
+background-color: #f4a261;
+text-align:left;
 }
 #freelance
 {
@@ -251,7 +253,7 @@ color: #595959;
 }
 #educ
 {
-    position: absolute;
+position: absolute;
 width: 118px;
 height: 27px;
 left: 498px;
@@ -262,9 +264,8 @@ font-style: normal;
 font-weight: bold;
 font-size: 22px;
 line-height: 27px;
-/* identical to box height */
-
-
+background-color: #f4a261;
+text-align:left;
 color: #000000;
 }
 #col
@@ -320,7 +321,7 @@ height: 1319px;
 left: 40px;
 top: 0px;
 
-background: #717568;
+background: #264653;
 }
 #photo
 {
@@ -333,9 +334,9 @@ background: #717568;
 }
 html
 {
-    background-color: #F1BF98;
+    background-color: #e9c46a;
 }
-#contacts
+#contacts h2
 {   position: absolute;
     width: 104px;
     height: 27px;
@@ -413,7 +414,7 @@ color: #FFFFFF;
 }
 #tech_skills li
 {
-    color: #3F4739;
+    color: #E24D28;
 }
 #tech_skills span
 {
@@ -451,9 +452,35 @@ color: #FFFFFF;
 }
 #soft_skills li
 {
-    color: #3F4739;
+    color: #E24D28;
 }
 #soft_skills span
 {
     color: #FFFFFF;
+}
+#contacts a
+{
+    font-size: larger;
+    color:#000000;
+    font-family:'Times New Roman', Times, serif;
+}
+#sn
+{
+    position:absolute;
+    justify-content: flex-start;
+    bottom:1%;
+    left:1%;
+}
+#instagram
+{
+    position:static;
+}
+
+#telegram
+{
+    position:static;
+}
+#education
+{
+    width:100px;
 }
